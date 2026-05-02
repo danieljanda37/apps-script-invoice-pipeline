@@ -1,0 +1,17 @@
+# Apps Script
+.clasprc.json
+.clasp.json
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Local config (must NOT be committed — contains real IDs)
+**/config.gs
+!**/config.example.gs
